@@ -1,0 +1,57 @@
+SysInfo / Usage info - third-party software in this folder
+===========================================================
+Usage info 1.1.0, 2026-11-13.
+
+SysInfo runs OpenRGB as a separate, unmodified program and talks to it over
+OpenRGB's network SDK on 127.0.0.1. SysInfo itself does not contain OpenRGB code.
+
+1. OpenRGB
+   Copyright (C) Adam Honse (CalcProgrammer1) and the OpenRGB contributors
+   Licence: GNU General Public License, version 2 (GPL-2.0; source headers
+   say GPL-2.0-or-later). Files: OpenRGB.exe
+   Version: Windows 64-bit build of branch "master", Git commit
+   8e16de27858cf2be6af54a33ce003df74cb9fd3e, built 2026-10-16 16:37:19 -0500, Qt 6.8.3.
+   Project: https://gitlab.com/CalcProgrammer1/OpenRGB
+   Source code of exactly this version:
+   https://gitlab.com/CalcProgrammer1/OpenRGB/-/tree/8e16de27858cf2be6af54a33ce003df74cb9fd3e
+   OpenRGB is unmodified. Only files that the program does not need for the SDK
+   server were left out: the PawnIO kernel-driver modules (*.bin), image and
+   style plug-ins, and the shader compiler. RAM and some motherboard
+   controllers therefore cannot be controlled: they need a kernel driver
+   (SMBus/Super-IO), which is left out to avoid anti-cheat problems in games.
+
+   Written offer: for at least three years from the date you received this
+   copy, Final Patch Studios will give anyone a complete machine-readable copy
+   of the corresponding source code of the OpenRGB version included here (and
+   of the Qt, libusb and hidapi libraries listed below), for no more than the
+   cost of physically performing the distribution.
+   Contact: open an issue at https://github.com/paTchPeters/UsageInfo/issues
+
+2. Qt 6 (Qt6Core.dll, Qt6Gui.dll, Qt6Widgets.dll, platforms\qwindows.dll)
+   Copyright (C) The Qt Company Ltd and other contributors
+   Licence: GNU Lesser General Public License v3 (LGPL-3.0). Version 6.8.3, unmodified.
+   You may replace these DLLs with your own build of the same Qt version.
+   Source: https://download.qt.io/archive/qt/6.8/6.8.3/ (covered by the written offer above)
+
+3. hidapi (hidapi-hotplug.dll)
+   Copyright (c) Alan Ott, Signal 11 Software, and contributors
+   Licence: chosen from the HIDAPI licence options: BSD-3-Clause.
+   Source: https://github.com/libusb/hidapi
+
+4. libusb (libusb-1.0.dll)
+   Copyright (C) the libusb authors
+   Licence: GNU Lesser General Public License v2.1 (LGPL-2.1). Unmodified.
+   Source: https://github.com/libusb/libusb
+
+5. PawnIOLib.dll
+   User-mode library from the PawnIO project. OpenRGB.exe will not start without it.
+   No PawnIO driver or module ships with SysInfo, so the library cannot reach any hardware.
+   Licence: see https://github.com/namazso/PawnIO (to be confirmed before release).
+
+6. Microsoft Visual C++ runtime (msvcp140*.dll, vcruntime140*.dll)
+   Redistributed under the Microsoft Visual Studio redistributable licence terms.
+
+Licence texts (folder "licenses" next to this file)
+---------------------------------------------------
+GPL-2.0.txt (OpenRGB), LGPL-3.0.txt + GPL-3.0.txt (Qt), LGPL-2.1.txt (libusb),
+hidapi-BSD-3-Clause.txt (hidapi). Official texts: https://www.gnu.org/licenses/
