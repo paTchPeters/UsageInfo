@@ -1,0 +1,27 @@
+Usage info 1.1.0 - licence
+==========================
+
+Usage info
+Copyright (c) 2026 paTch / Final Patch Studios. All rights reserved.
+Usage info is free. You may download, install and use it, and share the
+unchanged installer or ZIP. It comes as is, without any warranty.
+
+Third-party software included (only used by the RGB menu)
+---------------------------------------------------------
+OpenRGB - Copyright (C) Adam Honse (CalcProgrammer1) and the OpenRGB contributors.
+Licensed under the GNU General Public License, version 2 (GPL-2.0).
+Included unmodified (branch master, commit 8e16de27858cf2be6af54a33ce003df74cb9fd3e,
+built 2026-10-16). It runs as a separate program, without any kernel driver.
+Source code: https://gitlab.com/CalcProgrammer1/OpenRGB/-/tree/8e16de27858cf2be6af54a33ce003df74cb9fd3e
+
+Also included with OpenRGB: Qt 6.8.3 (LGPL-3.0), libusb (LGPL-2.1),
+hidapi (BSD-3-Clause), PawnIOLib (user-mode library only, no driver) and the
+Microsoft Visual C++ runtime (redistributable).
+
+The full details, including the written offer of source code, are in
+verktoy\OpenRGB-sysinfo\THIRD_PARTY_NOTICES.txt after installation, and in
+the app: right-click the tray icon > About Usage info.
+
+RGB note: RAM and some motherboard controllers need a kernel driver (SMBus).
+Usage info leaves that out on purpose to avoid anti-cheat problems in games,
+so those devices cannot be controlled.
