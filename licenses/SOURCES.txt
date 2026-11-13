@@ -1,0 +1,7 @@
+Downloaded 2026-11-13 (approved by paTch 14:43). File | source | bytes | SHA256
+licenses/GPL-2.0.txt | https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt | 17984 | edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6
+licenses/GPL-3.0.txt | https://www.gnu.org/licenses/gpl-3.0.txt | 35149 | 3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986
+licenses/hidapi-BSD-3-Clause.txt | https://raw.githubusercontent.com/libusb/hidapi/master/LICENSE-bsd.txt | 1534 | 30eb1bef29b46f8ba7ab8b416035dbd93cb034a45481dd97815b944284582cd2
+licenses/LGPL-2.1.txt | https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt | 26419 | 20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95
+licenses/LGPL-3.0.txt | https://www.gnu.org/licenses/lgpl-3.0.txt | 7652 | e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118
+OpenRGB-8e16de27858cf2be6af54a33ce003df74cb9fd3e-source.zip | https://codeload.github.com/CalcProgrammer1/OpenRGB/zip/8e16de27858cf2be6af54a33ce003df74cb9fd3e (GitHub mirror by the OpenRGB author; GitLab served a bot check) | 17076269 | 064fd11d18ff0cc854c2da0f0b8ee703b4a053089b0cc0cf2e8b925dde7276d8
