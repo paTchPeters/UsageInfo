@@ -1,0 +1,5 @@
+# Release files are attached to GitHub Releases, not committed
+*.exe
+*.zip
+*.msix
+Thumbs.db
